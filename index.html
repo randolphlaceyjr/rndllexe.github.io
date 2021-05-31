@@ -1,12 +1,93 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Randy Lacey, Jr. | Portfolio</title>
+  <script src="https://use.fontawesome.com/c243f7967e.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <p>Hello, World!</p>
+  <div class="container">
+
+    <header>
+      <h1 id="header_logo">Future Logo</h1>
+      <nav class="header__nav">
+        <ul class="header__nav_list">
+          <section class="social_icons__nav_list">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-github"></a>
+            <a href="#" class="fa fa-codepen"></a>
+            <a href="#" class="fa fa-skype"></a>
+            <a href="#" class="fa fa-envelope-o"></a>
+          </section>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="main_banner_container">
+      <div class="static_text">Randy Lacey, Jr.</div>
+      <div class="main_banner__backslash">//</div>
+      <div class="dynamic_text__right">SoftwareDeV</div>
+    </section>
+
+    <section class="biography">
+      <div class="biography_description">
+
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="projects__column">
+        <div class="layer layer1">
+          <figure class="projects__column_figure">
+            <img
+            src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
+            <input type="checkbox" id="click">
+           <label for="click" class="projects__column_title"><h3 class="projects__column_title">Plan</h3></label>
+          </figure>
+        </div>
+        <div class="modal__content">
+          <div class="modal__header">
+            <h2>Biography</h2>
+          </div>
+          <p>Currently enrolled in WeCanCodeIt, and will be graduating at the beginning of September 2021. </p>
+          <div class="modal__line"></div>
+          <label for="click" class="close-btn">Close</label>
+        </div>
+      </div>
+
+      <div class="projects__column">
+        <div class="layer layer1">
+          <figure class="projects__column_figure">
+            <img
+              src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
+            <h3 class="projects__column_title">Code</h3>
+          </figure>
+        </div>
+      </div>
+
+      <div class="projects__column">
+        <div class="layer layer1">
+          <figure class="projects__column_figure">
+            <img
+              src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+            <h3 class="projects__column_title">Launch!</h3>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small class="footer__copyright">&copy wcci 2021</small>
+      <section class="footer__social">
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-github"></a>
+      </section>
+    </footer>
+  </div>
 </body>
+
 </html>

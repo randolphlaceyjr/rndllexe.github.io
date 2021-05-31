@@ -1,0 +1,255 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald') */
+
+/* *{
+    margin: 0;
+    padding: 0;
+  } */
+
+html {
+  font: 18px/1.618 sans-seriff;
+  font-family: 'Oswald', sans-seriff;
+}
+
+a {
+  color: black;
+  padding: .25rem .5rem;
+  text-decoration: none;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #e3e7ed;
+}
+
+.container {
+  display: grid;
+  width: 90%;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:2.5%;
+}
+
+#header_logo {
+  text-decoration: underline;
+}
+
+#header_logo:hover {
+  color: #d81e1e;
+  transition: .20s;
+}
+
+.header__nav_list {
+  display: flex;
+}
+
+.fa-envelope-o, .fa-codepen {
+  font-weight: bold;
+}
+
+.fa:hover {
+  color:#d81e1e;
+  transition: .25s;
+}
+
+.social_icons__nav_list {
+  display: flex;
+  justify-content: center;
+  font-size: 1.50rem;
+  margin-left: 5%;
+  padding-top: 4.5%;
+  padding-bottom: 2.5%;
+}
+
+.main_banner_container {
+
+  margin-top: 5%;
+  display: flex;
+  font-size: 50px;
+  /* word-spacing: normal; */
+  justify-content: center;
+}
+
+.static_text {
+  color: #d81e1e;
+  font-weight: bold;
+}
+
+.main_banner__backslash {
+  color: white;
+  font-weight: bold;
+}
+
+.dynamic_text__right {
+  color: rgb(177, 169, 169);
+  font-weight: bold;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5%;
+  /*   margin-left: 10%; */
+}
+
+.projects .projects__column {
+  position: relative;
+}
+
+.projects .projects__column .layer {
+  border: solid;
+  border-color: #d40f51;
+  border-width: thin;
+  width: 350px;
+  height: 200px;
+  transition: .9s;
+  /* border-radius: 1.5%; */
+}
+
+.projects .projects__column .layer.layer1 {
+  position: relative;
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.projects .projects__column:hover .layer {
+  background: #d40f51;
+  border-color:black;
+  /* transform: translateY(0); */
+}
+
+.projects .projects__column_figure {
+  opacity: 0.2;
+  transition: .5s;
+}
+
+.projects .projects__column:hover .projects__column_figure {
+  opacity: 1;
+}
+
+.projects .projects__column .projects__column_figure img {
+  max-width: 100px;
+}
+
+.projects .projects__column .projects__column_figure h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.projects .projects__column .layer {
+  position: relative;
+  background: #e3e7ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0.4, 0, 0, 0.4);
+  transform: translateY(-100px);
+}
+
+.projects .projects__column .layer .projects__column_figure p {
+  margin: 0;
+  padding: 0;
+}
+
+.projects .projects__column .layer .projects__column_figure a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.projects .projects__column .layer .projects__column_figure a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.projects__column {
+  padding-left: .5rem;
+}
+
+.projects__column_image {
+  text-align: center;
+  height: auto;
+  max-width: 100%;
+}
+
+.projects__figure {
+  text-align: center;
+}
+
+#click {
+  display: none;
+}
+
+.modal__content {
+  width: 400px;
+  height: 350px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.4);
+}
+
+.modal__content p {
+  padding-top: 10px;
+  font-size: 19px;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.modal__header {
+  height: 68px;
+  background:#d81e1e;
+  overflow: hidden;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+
+.modal__header h2 {
+  color: white;
+  padding-left: 32px;
+  font-weight: normal;
+}
+
+.modal__line {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  height: 1px;
+  background: silver;
+
+}
+
+.close-btn {
+  position: absolute;
+  bottom: 7.2px;
+  right: 25px;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: black;
+  padding: 8px 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 15%;
+}
