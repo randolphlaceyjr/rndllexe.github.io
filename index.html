@@ -1,93 +1,105 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>Randy Lacey, Jr. | Portfolio</title>
-  <script src="https://use.fontawesome.com/c243f7967e.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>Randy Lacey, Jr. | Portfolio</title>
 </head>
-
 <body>
-  <div class="container">
+    <!-- navbar -->
+    <div class="navbar">
 
-    <header>
-      <h1 id="header_logo">Future Logo</h1>
-      <nav class="header__nav">
-        <ul class="header__nav_list">
-          <section class="social_icons__nav_list">
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-github"></a>
-            <a href="#" class="fa fa-codepen"></a>
-            <a href="#" class="fa fa-skype"></a>
-            <a href="#" class="fa fa-envelope-o"></a>
-          </section>
-        </ul>
-      </nav>
-    </header>
-
-    <section class="main_banner_container">
-      <div class="static_text">Randy Lacey, Jr.</div>
-      <div class="main_banner__backslash">//</div>
-      <div class="dynamic_text__right">SoftwareDeV</div>
-    </section>
-
-    <section class="biography">
-      <div class="biography_description">
-
-      </div>
-    </section>
-
-    <section class="projects">
-      <div class="projects__column">
-        <div class="layer layer1">
-          <figure class="projects__column_figure">
-            <img
-            src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
-            <input type="checkbox" id="click">
-           <label for="click" class="projects__column_title"><h3 class="projects__column_title">Plan</h3></label>
-          </figure>
-        </div>
-        <div class="modal__content">
-          <div class="modal__header">
-            <h2>Biography</h2>
+      <input type="checkbox" class="checkbox" id="click" hidden>
+      
+      <!-- sidebar -->
+      <div class="sidebar">
+        <label for="click">
+          <div class="menu_icon">
+            <div class="line line_1"></div>
+            <div class="line line_2"></div>
+            <div class="line line_3"></div>
           </div>
-          <p>Currently enrolled in WeCanCodeIt, and will be graduating at the beginning of September 2021. </p>
-          <div class="modal__line"></div>
-          <label for="click" class="close-btn">Close</label>
+        </label>
+
+        <ul class="social_icons_list">
+          <li>
+            <a href="#" class="social_link"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social_link"><i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social_link"><i class="fab fa-codepen"></i></a>
+          </li>          
+          <li>
+            <a href="#" class="social_link"><i class="fab fa-skype"></i></a>
+          </li>          
+          <li>
+            <a href="#" class="social_link"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+        <div class="year">
+          <p>2021</p>
         </div>
       </div>
+      <!-- end of sidebar -->
 
-      <div class="projects__column">
-        <div class="layer layer1">
-          <figure class="projects__column_figure">
-            <img
-              src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
-            <h3 class="projects__column_title">Code</h3>
-          </figure>
+      <!-- navigation -->
+      <nav class="navigation">
+        <div class="navigation_header">
+          <h1 class="navigation_heading">Portfolio</h1>
         </div>
-      </div>
+        <ul class="navigation_list">
+          <li class="navigation_item">
+            <a href="#" class="navigation_link">home</a>
+          </li>
+          <li class="navigation_item">
+            <a href="#" class="navigation_link">about me</a>
+          </li>
+          <li class="navigation_item">
+            <a href="#" class="navigation_link">resume</a>
+          </li>
+          <li class="navigation_item">
+            <a href="#" class="navigation_link">contact</a>
+          </li>
+          <li class="navigation_item">
+            <a href="#" class="navigation_link">projects</a>
+          </li>
+          <li class="navigation_item">
+            <a href="#" class="navigation_link">something elsex</a>
+          </li>
+        </ul>
 
-      <div class="projects__column">
-        <div class="layer layer1">
-          <figure class="projects__column_figure">
-            <img
-              src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
-            <h3 class="projects__column_title">Launch!</h3>
-          </figure>
+        <div class="copyright">
+          <p>&copy; 2021. Randy Lacey, Jr. All Rights Reserved.</p>
         </div>
-      </div>
-    </section>
+      </nav>
 
-    <footer class="footer">
-      <small class="footer__copyright">&copy wcci 2021</small>
-      <section class="footer__social">
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-github"></a>
-      </section>
-    </footer>
-  </div>
+      <!-- end of navigation -->
+
+    </div>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header class="header">
+      <div class="brand">
+        <div>
+          <img src="logo_here" alt="">
+        </div>
+        <h3 class="portfolio_heading">future logo here</h3>
+      </div>
+      
+      <div class="banner">
+        <h1 class="banner_heading">Randy Lacey, Jr.<span class="banner_light_grey">//Software Developer</span><span class="blink line_blinking"></span></h1>
+        <!-- <p class="banner_paragraph">ballin</p> -->
+        <!-- <button class="banner_button">Check Out</button> -->
+        
+      </div>
+    </header>
+    <!-- end of header -->
+
 </body>
-
 </html>
