@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 html {
   font-size: 62.5%;
@@ -209,7 +211,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100rem;
+  /* margin-bottom: 100rem; */
 }
 
 .line_blinking {
@@ -291,9 +293,116 @@ body {
 
 /* end of header */
 
+/* about */
+/*end of about */
+.about {
+  margin-left: 8rem;
+  display: flex;
+  background-color: #555;
+}
+
+.about_content {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  box-sizing: border-box;
+}
+
+.about_heading {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;;
+}
+
+.small_underline {
+  width: 9rem;
+  height: .1rem;
+  background-color: #d81e1e;
+  margin: 0 auto 1rem auto;
+}
+
+.big_underline {
+  width: 20rem;
+  height: .1rem;
+  background-color: #d81e1e;
+}
+
+.sub_heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: .2rem;
+  color:#d81e1e;
+}
+
+.about_paragraph {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 300rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.about_btn {
+  width: 15rem;
+  padding: .7rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color:white;
+  background-color: transparent;
+  border: .1rem solid white;
+  outline: none;
+  cursor: pointer;
+}
 
 
+.btn_arrow {
+  margin-left: .5rem;
+}
 
+.about_btn:hover .btn-arrow {
+  margin-left: 1.5rem;
+  transition: margin-left .4s;
+}
+.about_images {
+  flex: 1 1;
+  position: relative;
+}
+
+.image {
+  width: 16rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.image_1 {
+  transform: translate(-120%, -90%);
+  z-index: 2;
+}
+
+.image_2 {
+  transform: translate(-70%, -70%);
+  z-index: 1;
+}
+
+.image_3 {
+  transform: translate(-20%, 0%, 25%);
+}
+
+.image_4 {
+  transform: translate(-120%, 30%);
+}
+
+.image_5 {
+  transform: translate(25%, -50%);
+}
 
 
 
