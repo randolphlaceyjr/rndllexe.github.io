@@ -255,6 +255,7 @@ body {
 }
 
 .banner_paragraph {
+  color:#d81e1e;
   font-size: 3.5rem;
   font-weight: 300;
   animation: anim 1.5s .5s backwards;
@@ -294,11 +295,10 @@ body {
 /* end of header */
 
 /* about */
-/*end of about */
 .about {
   margin-left: 8rem;
   display: flex;
-  background-color: #555;
+  background-color: rgb(216, 216, 216);
 }
 
 .about_content {
@@ -316,7 +316,7 @@ body {
   font-size: 4rem;
   font-weight: 300;
   text-transform: uppercase;
-  color: white;;
+  color: white;
 }
 
 .small_underline {
@@ -382,39 +382,117 @@ body {
   left: 50%;
 }
 
-.image_1 {
-  transform: translate(-120%, -90%);
+.image_java_logo {
+  transform: translate(-150%, -55%);
   z-index: 2;
 }
 
-.image_2 {
-  transform: translate(-70%, -70%);
+.image_javascript_logo {
+  transform: translate(-70%, -100%);
   z-index: 1;
 }
 
-.image_3 {
+.image_css_logo {
   transform: translate(-20%, 0%, 25%);
 }
 
-.image_4 {
-  transform: translate(-120%, 30%);
+.image_react_logo {
+  transform: translate(-90%, 30%);
 }
 
-.image_5 {
-  transform: translate(25%, -50%);
+.image_html_logo {
+  transform: translate(25%, -110%);
+}
+/*end of about */
+
+
+/** common header **/
+
+.common_header {
+  padding: 5rem;
+  text-align: center;
+  color: #d81e1e;
+}
+
+.common_heading {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: .2rem;
+}
+
+.small_underline {
+  width: 9rem;
+  height: .1rem;
+  background-color: #d81e1e;
+  margin: 0 auto 1rem auto;
+}
+
+.big_underline {
+  width: 20rem;
+  height: .1rem;
+  margin: auto;
+  background-color: #d81e1e;
+}
+
+/** end of common header **/
+
+/** projects **/
+.project_box {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+}
+
+.projects {
+  margin-left: 8rem;
+}
+
+.projects_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project_card {
+  width: 60rem;
+  margin: 5rem;
+  background-color: #15141b;
+  box-shadow: 0 3rem 6rem rgba(0,0,0,.3);
+}
+
+.project_card_content {
+  color: white;
+  padding: 2rem;
+}
+
+.project_card_heading {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.project_card_paragraph {
+  font-size: 1.5rem;
+  color: #777;
+}
+
+.project_card_btn {
+  margin-top: 1rem;
+  width: 15rem;
+  padding: 1.1rem .5rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color:white;
+  background-color: transparent;
+  border: .1rem solid white;
+  border-radius: .25rem;
+  outline: none;
+  cursor: pointer;
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/** end of projects **/
 
 
 /* .navigation_link:hover {
