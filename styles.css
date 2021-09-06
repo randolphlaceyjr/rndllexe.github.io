@@ -568,14 +568,20 @@ body {
   padding: 4rem;
 }
 
+.footer_list_container {
+  margin: 0 15rem;
+}
+
 .footer_heading {
   font-size: 2.5rem;
   font-weight: 300;
   color: #d81e1e;
-  margin: 1rem 0 3rem o;
+  margin: 1rem 0 2.5rem .5rem;
+  text-align: center;
 }
 
 .footer_list {
+  text-align: justify;
   list-style: none;
   padding: 0;
 }
@@ -585,10 +591,32 @@ body {
 }
 
 .footer_list_link {
-  font-size: 1.4rem;
+  margin-left: 1.25rem;
+  font-size: 1.95rem;
   text-decoration: none;
   color: #bbb;
 }
+
+.social_link_footer {
+  margin-left: .8rem;
+  font-size: 2.5rem;
+  color: white;
+  transition: color .3s;
+}
+
+.social_link_footer:hover {
+  color: #d81e1e;
+}
+
+.footer_social_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  letter-spacing: 2.5rem;
+  align-items: center;
+}
+
+
 
 
 
