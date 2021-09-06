@@ -491,15 +491,107 @@ body {
   cursor: pointer;
 }
 
+.projects_btn_container {
+  text-align: center;
+}
+
+.projects_btn {
+  width: 20rem;
+  padding: 1.5rem 1rem;
+  margin: 4rem 0;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #d81e1e;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,.5);
+  outline: none;
+  box-shadow: 0 1.5rem 6rem rgba(0,0,0,.2);
+  transition: all .2s;
+}
+
+.projects_btn:hover {
+  color: white;
+  background-color: black;
+}
 
 /** end of projects **/
 
+/** employers **/
 
-/* .navigation_link:hover {
-  color: #deaa86;
+.employers {
+  margin-left: 8rem;
+  padding-bottom: 7rem;
+  background-color: white;
 }
 
-.navigation-link:hover::before,
-.navigation-link:hover::after {
-  width: 3rem;
-} */
+.employers_paragraph {
+  font-size: 1.5rem;
+  color: #15141b;
+  width: 50%;
+  margin: 2rem auto 8rem auto;
+  text-align: center;
+}
+
+.employers_card_container {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.employer_image_container {
+  margin: auto 0;
+}
+
+.employer_card {
+  background-color: white;
+  width: 60rem;
+  display: flex;
+}
+
+.img_employer {
+  height: 55;
+  width: 300px;
+  margin-left: 10.5rem;
+}
+
+/** end of employers **/
+
+/** footer */
+
+.footer {
+  margin-left: 8rem;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1c1c;
+  padding: 4rem;
+}
+
+.footer_heading {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #d81e1e;
+  margin: 1rem 0 3rem o;
+}
+
+.footer_list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_list_item {
+  margin-bottom: 2rem;
+}
+
+.footer_list_link {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #bbb;
+}
+
+
+
+
+
+/** end of footer */
