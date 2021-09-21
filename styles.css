@@ -675,3 +675,22 @@ body {
     margin-right: -2.5rem;
   }
 }
+
+
+@media(max-width: 950px) {  
+  .banner_heading {
+    font-size: 4em;
+  }
+
+  .banner_slogan_content {
+    font-size: 3.25em;
+  }
+
+  .about_content {
+    flex: 0.5 1 50%;
+  }
+
+  .sub_heading {
+    font-size: 2.5em;
+  }
+}
