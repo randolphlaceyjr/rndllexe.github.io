@@ -418,6 +418,7 @@ body {
 .image_html_logo {
   transform: translate(25%, -110%);
 }
+
 /*end of about */
 
 
@@ -588,7 +589,7 @@ body {
 }
 
 .footer_heading {
-  color: #aa1a41;
+  color: #8a5d69;
   font-size: 2.5rem;
   font-weight: 300;
   margin: 1rem 0 2.5rem .5rem;
@@ -677,7 +678,7 @@ body {
 }
 
 
-@media(max-width: 950px) {  
+@media(max-width: 1080px) {  
   .banner_heading {
     font-size: 4em;
   }
@@ -692,5 +693,10 @@ body {
 
   .sub_heading {
     font-size: 2.5em;
+  }
+
+  .about_images {
+    flex: 18.75 1;
+    opacity: .8;
   }
 }
